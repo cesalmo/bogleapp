@@ -4,14 +4,16 @@ Usage:
 Create file settings.py with following data:
     
 URL assets list from morningstar.es
-quote_page = ['http://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=XXXXXXXXX']
+'quote_page = ['http://www.morningstar.es/es/funds/snapshot/snapshot.aspx?id=XXXXXXXXX']'
 
 number of shares for each mutual fund
-data_shares = ['1']
+'data_shares = ['1']'
 
 groups for portfolio rebalancing
+'''
 group01 = ['Europe', 'N.America', 'Pacific', 'Pacific', 'Em.Markets', 'Em.Markets',
            'Spain', 'Bonds', 'Bonds', 'Bonds']
+'''
 
 assing weights to groups. sum of weights = 100
 dict01 = {'Europe': 16.8, 'N.America': 12.0, 'Pacific':7.20, 'Em.Markets':7.20,
