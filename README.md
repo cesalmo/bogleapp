@@ -25,6 +25,7 @@ dict01 = {'Europe': 16.8, 'N.America': 12.0, 'Pacific':7.20, 'Em.Markets':7.20,
 A list with assets value:
 
 `                    name    share   price    curr       group     total`
+
 `Pictet-Japan Index R EUR   10.000  100.00  1.0000     Pacific   1000.00`
 
 
@@ -32,6 +33,7 @@ A list with assets value:
 `Current portfolio values is 1000 Euros`
 
 `       group     total  weight  act_wei  ratio     reb`
+
 `       Bonds  10000.00    52.0    49.41  1.052  1000.0`
 
 ********
